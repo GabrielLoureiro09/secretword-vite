@@ -1,0 +1,43 @@
+.start h1 {
+  font-size: 3.5em;
+}
+
+.start p {
+  margin-bottom: 2em;
+  color: #ecff99;
+}
+
+.difficulty-selector {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.difficulty-selector button {
+    flex: 1;
+    height: 65px;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    background: #0923af;
+    border: 3px solid #1646a0;
+    transition: all 0.3s ease-in-out;
+}
+
+.difficulty-selector button.active {
+    background: #ecff99;
+    color: #000;
+    border-color: #fff;
+    font-weight: 700;
+    transform: scale(1.05);
+}
+
+.start-game-button {
+    height: 70px;
+    font-size: 1.5em;
+    padding: 0 60px;
+}
